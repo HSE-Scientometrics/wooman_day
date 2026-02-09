@@ -15,6 +15,9 @@ st.set_page_config(
     layout="wide"
 )
 
+# Добавляем логотип
+st.logo("https://shorturl.at/6NwIW",link = "https://t.me/HQhse")
+
 # -------------------------------------------------
 # Загрузка данных
 # -------------------------------------------------
@@ -235,3 +238,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+with st.expander("ℹ️ О диаграмме"):
+    st.markdown("""
+    График создан на основе данных Scimago Journal & Country Rank.
+    Расчеты выполнены Наукометрическим центром ВШЭ.
+    """)
