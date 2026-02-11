@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 # Добавляем логотип
-st.logo("https://shorturl.at/6NwIW",link = "https://t.me/HQhse")
+st.logo("https://cdn2.buildin.ai/s3/d31358ad-6370-4365-b102-3981ee991946/photo_2021-11-22_13-26-05.jpg?time=1770823800&token=0f07eb36cd295ab46c1b0bcfdb4f6224&role=free",link = "https://t.me/HQhse")
 
 # -------------------------------------------------
 # Загрузка данных
